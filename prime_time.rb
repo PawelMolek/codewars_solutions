@@ -1,4 +1,4 @@
-#require 'prime'
+require 'prime'
 def prime(n)
   prime_array = []
   i = 0
