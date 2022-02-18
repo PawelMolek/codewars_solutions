@@ -1,5 +1,6 @@
 #https://www.codewars.com/kata/5541f58a944b85ce6d00006a/train/ruby
 def productFib(prod)
+  #function calculates fibonacci sequence
   def fibonacci( n )
     i = 1
     j = 1
@@ -11,6 +12,7 @@ def productFib(prod)
     end
     return i
   end
+  #create variables which we need into while loop and after it
   result=[]
   array_of_fibonacci_results = []
   array_of_fibonacci_results<<fibonacci(1)
@@ -18,6 +20,7 @@ def productFib(prod)
   temp1 = 0
   temp2 = 0
   sum = 0
+  #calculate in while loop multiplication of fibonacci sequence until it is equal or higher than prod and then return last 2 fibonacci sequence's
   while sum<prod
     array_of_fibonacci_results<<fibonacci(i)
     i+=1
