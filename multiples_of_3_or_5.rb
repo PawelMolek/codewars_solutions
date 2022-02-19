@@ -1,4 +1,4 @@
-# https://www.codewars.com/kata/514b92a657cdc65150000006/train/ruby
+#https://www.codewars.com/kata/514b92a657cdc65150000006/train/ruby
 def solution(number)
   x=0
   sum = 0
